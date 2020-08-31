@@ -1,4 +1,4 @@
-# ICP_SLAM using 2D LIDAR
+## ICP SLAM using 2D LIDAR in ROS (Robot Operating System)
 
 The project implementation mainly consists of Key frame creation, ICP Registration and ICP Iteration. ICP Track function is called in icp_slam_node.cpp and the method is defined in icp_slam.cpp
 
