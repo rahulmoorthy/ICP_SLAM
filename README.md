@@ -31,4 +31,19 @@ In case of the first key frame, we set the last key frame scan to the current sc
 
 
 ### Results: 
-Vizualizing ICP Registration across simple world, erractic world and on the TurtleBot
+Vizualizing ICP Registration across simple world, erractic world and on the TurtleBot: 
+
+<p align="center">
+  <img src="/images/map1.JPG">
+</p>
+
+
+<p align="center">
+  <img src="/images/map2.JPG">
+</p>
+
+
+<p align="center">
+  <img src="/images/map3.JPG">
+</p>
+
