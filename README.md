@@ -1,4 +1,4 @@
-# ICP_SLAM
+# ICP_SLAM using 2D LIDAR
 
 The project implementation mainly consists of Key frame creation, ICP Registration and ICP Iteration. ICP Track function is called in icp_slam_node.cpp and the method is defined in icp_slam.cpp
 
@@ -28,3 +28,7 @@ In case of the first key frame, we set the last key frame scan to the current sc
 4) Next, centre of mass was computed against x and p matrices. Also the corresponding coordinate points were subtracted from the centre of mass matrix(2 *1)
 5) W was then computed by taking the transpose of x and multiplying it with p. This results in a W matrix of size 2*2. We then performed Singular Value Decomposition (SVD) to      compute rotation and translation (R and t).
 6) The R and t are then transformed to obtained a refined pose which is then returned. For every iteration, error is then calculated by L2 distance between x and p’(obtained        from refined pose).
+
+
+### Results: 
+Vizualizing ICP Registration across simple world, erractic world and on the TurtleBot
